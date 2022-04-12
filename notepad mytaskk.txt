@@ -1,0 +1,10 @@
+#!bin/bash
+creatcmd=run-instances
+imid= ami-03190fe20ef6b1419
+instcount= count 1
+instyp=t
+keyname=
+sgid=
+snid=
+#aws ec2 run-instances --image-ids <id> --count <> --instance-type --key-name key-pair <> --security-group <sg-id> --subnet-id <id>
+aws ec2 $creatcmd $imid $instcount $insttype $keyname $sgid $snid
