@@ -8,4 +8,4 @@ security_id=sg-033fdf0758f7cdd8b
 subnet=subnet-0ce61ba9df22f8f10
 
 #aws ec2 run-instances --image-ids <id> --count <1> --instance-type --key-name key-pair <> --security-group <sg-id> --subnet-id <id>
-aws ec2 $creatcmd --image-id $ami --count $instcount --instance-type $instancetype --key-name $keyname --security-group-ids $security_ids --subnet-id $subnet 
+aws ec2 $creatcmd --image-id $ami --count $instcount --instance-type $instancetype --key-name $keyname --security-group-ids $security_ids --subnet-id $subnet
